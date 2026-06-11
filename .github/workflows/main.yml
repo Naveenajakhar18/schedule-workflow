@@ -1,6 +1,6 @@
 name: Schedule Job
 
-on: 
+on:
   schedule:
     - cron: "0 0 * * *"
 
@@ -11,5 +11,3 @@ jobs:
     steps:
       - name: Print Message
         run: echo "Schedule Workflow Execution"
-
-  
